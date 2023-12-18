@@ -8,4 +8,4 @@ COPY --chown=1001:0 \
     order-service.war \
     /config/apps
 
-RUN run.sh
+RUN mvn liberty:run
